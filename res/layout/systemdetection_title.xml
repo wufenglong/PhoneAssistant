@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/title_background_systemdetection"
+	android:gravity="center" xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:id="@+id/mTextView_title2_systemDetection"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_below="@+id/mTextView_title1_systemDetection"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_alignParentLeft="true" android:visibility="gone">
+	</TextView>
+	<TextView android:id="@+id/mTextView_title1_systemDetection"
+		android:textSize="18sp" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentTop="true"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_alignParentLeft="true">
+	</TextView>
+</RelativeLayout>

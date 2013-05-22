@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:id="@+id/mTextView_mainGridView"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:paddingTop="5sp"
+		android:textColor="@color/title_black"
+		android:layout_centerInParent="true"
+		android:layout_below="@+id/mImageButton_mainGridView">
+	</TextView>
+	<ImageButton android:id="@+id/mImageButton_mainGridView"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+	</ImageButton>
+</RelativeLayout>

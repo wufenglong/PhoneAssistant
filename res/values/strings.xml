@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, ServiceBroadcastReceiver!</string>
+	<string name="app_name">高信达手机助手</string>
+	<string name="normal_detectionSystem">无异常</string>
+	<!-- title -->
+	<string name="SystemDetection">系统检测</string>
+	<string name="CleaningRubbish">清理垃圾</string>
+	<string name="BootSpeech">开机加速</string>
+	<string name="ProcessManage">任务管理</string>
+	<string name="InstallSoftManage">软件管理</string>
+	<string name="BackupAndResume"> 备份恢复</string>
+	<string name="OneClickOptimization">一键优化</string>
+	<string name="SystemUpgrade">系统升级</string>
+	<string name="ManualService">人工服务</string>
+
+	<!-- CleaningRubbishActivity -->
+	<string name="cleanTempFile_cleaningRubbish">清理临时文件</string>
+	<string name="cleanSMSINBOX_cleaningRubbish">清理短信收件箱</string>
+	<string name="cleanSMSSENTBOX_cleaningRubbish">清理已发送短信</string>
+	<string name="cleanSMSDRAFT_cleaningRubbish">清理短信草稿箱</string>
+	<string name="cleanSMSOUTBOX_cleaningRubbish">清理发件箱</string>
+
+	<!-- BackupAndResumeActivity -->
+	<string name="text_contacts_BackupAndResume">通讯录</string>
+	<string name="text_SMS_BackupAndResume">短信</string>
+	<string name="lastBackupTime_BackupAndResume">上次备份时间:</string>
+	<string name="lastResumeTime_BackupAndResume">上次恢复时间:</string>
+	<string name="textBackup_BackupAndResume">备份</string>
+	<string name="textResume_BackupAndResume">恢复</string>
+	<string name="textUnknow_BackupAndResume">未知</string>
+
+	<!-- OneClickOptimizationActivity -->
+	<string name="textcleanTempFile_OneClickOptimization">清理临时文件</string>
+	<string name="textBackupContacts_OneClickOptimization">备份通讯录</string>
+	<string name="textBackupSMS_OneClickOptimization">备份短信</string>
+	<string name="textButton_OneClickOptimization">一键优化</string>
+	<string name="textPrompt_OneClickOptimization">一键优化内容如下:</string>
+
+	<!-- FileManager -->
+	<string name="backRoot_Button_FileManager_layout">返回根目录</string>
+	<string name="backParent_Button_FileManager_layout">返回父目录</string>
+	<string name="prompt_FileManager_layout">已到最上层了</string>
+	<string name="prompt_NOFile_FileManager_layout">此文件夹为空</string>
+	<string name="modify_fileName_FileManager_layout">更改文件名为：</string>
+	
+</resources>

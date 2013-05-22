@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:paddingLeft="10sp" xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:id="@+id/mTextView_info2_systemDetection"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textSize="16sp" android:paddingLeft="25sp"
+		android:layout_below="@+id/mTextView_info1_systemDetection"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textColor="@color/info_red"
+		android:layout_alignParentLeft="true">
+	</TextView>
+	<TextView android:id="@+id/mTextView_info1_systemDetection"
+		android:textSize="20sp" android:layout_width="wrap_content"
+		android:padding="2sp" android:layout_height="wrap_content"
+		android:paddingLeft="20sp" android:layout_alignParentTop="true"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textColor="@color/title_black"
+		android:layout_alignParentLeft="true">
+	</TextView>
+</RelativeLayout>

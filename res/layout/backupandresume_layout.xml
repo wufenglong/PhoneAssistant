@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="vertical"
+	android:background="@drawable/bg2" xmlns:android="http://schemas.android.com/apk/res/android">
+	<ImageView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:src="@drawable/imgtitle_beifenhuifu">
+	</ImageView>
+	<!-- 外层 -->
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:layout_gravity="center_horizontal">
+		<!-- 通讯录 -->
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="vertical"
+			android:layout_gravity="left">
+			<!-- 小图标和通讯录字样 -->
+			<LinearLayout android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:orientation="horizontal">
+				<ImageView android:src="@drawable/imgcontact_backupandresume"
+					android:layout_width="wrap_content" android:layout_height="wrap_content">
+				</ImageView>
+				<TextView android:layout_width="wrap_content"
+					android:textSize="20sp" android:textColor="@color/title_black"
+					android:layout_height="wrap_content" android:text="@string/text_contacts_BackupAndResume">
+				</TextView>
+			</LinearLayout>
+			<!-- 上次备份通讯录时间 -->
+			<LinearLayout android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:orientation="horizontal">
+				<TextView android:layout_width="wrap_content"
+					android:textColor="@color/title_black" android:layout_height="wrap_content"
+					android:text="@string/lastBackupTime_BackupAndResume">
+				</TextView>
+				<TextView android:id="@+id/mTextView_lastBackupContactsTime"
+					android:textColor="@color/title_black" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+				</TextView>
+			</LinearLayout>
+			<!-- 上次恢复通讯录时间 -->
+			<LinearLayout android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:orientation="horizontal">
+				<TextView android:layout_width="wrap_content"
+					android:textColor="@color/title_black" android:layout_height="wrap_content"
+					android:text="@string/lastResumeTime_BackupAndResume">
+				</TextView>
+				<TextView android:id="@+id/mTextView_lastResumeContactsTime"
+					android:textColor="@color/title_black" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+				</TextView>
+			</LinearLayout>
+			<!-- 备份恢复Button -->
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="vertical">
+				<Button android:id="@+id/mButton_backupContacts"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:text="@string/textBackup_BackupAndResume">
+				</Button>
+				<Button android:id="@+id/mButton_ResumeContacts"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:text="@string/textResume_BackupAndResume">
+				</Button>
+			</LinearLayout>
+		</LinearLayout>
+		<!-- 分界线 -->
+
+
+		<!-- 短信 -->
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="vertical"
+			android:layout_gravity="left">
+			<!-- 小图标和短信字样 -->
+			<LinearLayout android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:orientation="horizontal">
+				<ImageView android:src="@drawable/imgsms_backupandresume"
+					android:layout_width="wrap_content" android:layout_height="wrap_content">
+				</ImageView>
+				<TextView android:layout_width="wrap_content"
+					android:textSize="20sp" android:textColor="@color/title_black"
+					android:layout_height="wrap_content" android:text="@string/text_SMS_BackupAndResume">
+				</TextView>
+			</LinearLayout>
+			<!-- 上次备份短信时间 -->
+			<LinearLayout android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:orientation="horizontal">
+				<TextView android:layout_width="wrap_content"
+					android:textColor="@color/title_black" android:layout_height="wrap_content"
+					android:text="@string/lastBackupTime_BackupAndResume">
+				</TextView>
+				<TextView android:id="@+id/mTextView_lastBackupSMSTime"
+					android:textColor="@color/title_black" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+				</TextView>
+			</LinearLayout>
+			<!-- 上次恢复短信时间 -->
+			<LinearLayout android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:orientation="horizontal">
+				<TextView android:layout_width="wrap_content"
+					android:textColor="@color/title_black" android:layout_height="wrap_content"
+					android:text="@string/lastResumeTime_BackupAndResume">
+				</TextView>
+				<TextView android:id="@+id/mTextView_lastResumeSMSTime"
+					android:textColor="@color/title_black" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+				</TextView>
+			</LinearLayout>
+			<!-- 备份恢复Button -->
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="vertical">
+				<Button android:id="@+id/mButton_backupSMS"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:text="@string/textBackup_BackupAndResume">
+				</Button>
+				<Button android:id="@+id/mButton_ResumeSMS"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:text="@string/textResume_BackupAndResume">
+				</Button>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

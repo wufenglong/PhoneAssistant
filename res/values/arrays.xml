@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- *****************1.系统检测 *****************-->
+	<string-array name="systemDetection">
+		<item>硬件设备信息</item>
+		<item>检测系统</item>
+		<item>检测硬件</item>
+		<item>软件信息</item>
+		<item>开机驻留程序</item>
+		<item>内存驻留程序</item>
+	</string-array>
+	<!-- 1.1硬件设备信息 -->
+	<string-array name="hardwareInfo_array">
+		<item>系统版本</item>
+		<item>IMSI</item>
+		<item>IMEI</item>
+		<item>屏幕尺寸</item>
+		<item>手机厂商</item>
+		<item>手机型号</item>
+	</string-array>
+
+	<!-- 1.2检测系统 -->
+	<string-array name="detectionSystemInfo_array">
+		<item>系统信息</item>
+	</string-array>
+
+	<!-- 1.3检测硬件-->
+	<string-array name="detectionHardwareInfo_array">
+		<item>硬件信息</item>
+	</string-array>
+
+	<!-- 1.4 软件信息 -->
+	<string-array name="installedApplist_array">
+		<item>已安装软件数</item>
+	</string-array>
+
+	<!-- 1.5开机驻留程序 -->
+	<string-array name="bootAppList_array">
+		<item>开机启动软件数</item>
+	</string-array>
+
+	<!-- 1.6内存驻留程序 -->
+	<string-array name="runningTaskAppList_array">
+		<item>正在运行的软件数</item>
+	</string-array>
+	<!-- ***********************************-->
+	<string-array name="main_array">
+		<item>系统检测</item>
+		<item>清理垃圾</item>
+		<item>开机加速</item>
+		<item>任务管理</item>
+		<item>软件管理</item>
+		<item>文件管理</item>
+		<item>一健优化</item>
+		<item>备份恢复</item>
+		<item>系统帮助</item>
+	</string-array>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:minHeight="?android:attr/listPreferredItemHeight">
+
+	<ImageView android:id="@+id/app_icon_processmanage"
+		android:layout_width="55px" android:layout_height="55px"
+		android:layout_marginLeft="10px" android:layout_alignParentLeft="true"
+		android:layout_centerVertical="true" android:scaleType="fitCenter">
+	</ImageView>
+
+	<ImageButton android:id="@+id/itemcheck_processmanage"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_centerVertical="true" android:layout_marginRight="10px"
+		android:layout_alignParentRight="true" android:background="#00000000">
+	</ImageButton>
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_centerVertical="true" android:layout_toRightOf="@id/app_icon_processmanage"
+		android:layout_toLeftOf="@id/itemcheck_processmanage"
+		android:layout_marginLeft="15px" android:layout_marginRight="10px">
+		<TextView android:id="@+id/app_name_processmanage"
+			android:textSize="20sp" android:layout_width="fill_parent"
+			android:textColor="@color/title_black"
+			android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium">
+		</TextView>
+		<TextView android:id="@+id/app_size_processmanage"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginTop="5px" android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_marginRight="10px"
+			android:textColor="@color/info_red">
+		</TextView>
+	</LinearLayout>
+
+</RelativeLayout>

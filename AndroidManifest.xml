@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	android:versionCode="1" android:versionName="1.0"
+	package="com.hwttnet.mobileassistant">
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<service android:name=".service.MoblieAssistantService">
+		</service>
+		<receiver android:name=".service.ServiceBroadcastReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+				<action android:name="com.hwttnet.moblieassistant139.service.NotifyServiceStart" />
+				<action android:name="com.hwttnet.moblieassistant139.service.NotifyServiceStop" />
+			</intent-filter>
+		</receiver>
+		<activity android:name=".ui.MainActivity" android:label="@string/app_name"
+			android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"></action>
+				<category android:name="android.intent.category.LAUNCHER"></category>
+			</intent-filter>
+		</activity>
+		<!--  -->
+		<activity android:name=".ui.CleaningRubbishActivity"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".ui.SystemDetectionActivity"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".ui.BootSpeedActivity"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".ui.ProcessManageActivity"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".ui.InstallSoftManageActivity"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".ui.BackupAndResumeActivity"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".ui.OneClickOptimizationActivity"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".ui.ManualServiceActivity"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".ui.SystemHelpActivity"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".ui.FileManager"
+			android:screenOrientation="portrait"></activity>
+	</application>
+	<uses-sdk android:minSdkVersion="3" />
+
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.GET_TASKS"></uses-permission>
+	<uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+	<uses-permission android:name="android.permission.READ_SMS"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_CONTACTS"></uses-permission>
+	<uses-permission android:name="android.permission.RESTART_PACKAGES"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_SMS"></uses-permission>
+	
+</manifest> 
