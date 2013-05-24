@@ -6,7 +6,7 @@
 		android:src="@drawable/imgtitle_xitongbangzhu" android:layout_height="wrap_content">
 	</ImageView>
 	<WebView android:id="@+id/myWebView_systemhelp"
-		android:background="@drawable/bg2" android:layout_width="fill_parent"
+		android:background="@drawable/bg" android:layout_width="fill_parent"
 		android:layout_height="fill_parent" android:layout_weight="1"></WebView>
 	<!--
 		<LinearLayout android:layout_width="fill_parent"

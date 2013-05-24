@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="hello">Hello World, ServiceBroadcastReceiver!</string>
-	<string name="app_name">高信达手机助手</string>
+	<string name="app_name">龙助手</string>
 	<string name="normal_detectionSystem">无异常</string>
 	<!-- title -->
 	<string name="SystemDetection">系统检测</string>

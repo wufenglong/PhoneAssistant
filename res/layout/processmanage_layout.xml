@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:layout_width="fill_parent"
 	android:layout_height="fill_parent" android:orientation="vertical"
-	android:background="@drawable/bg2" xmlns:android="http://schemas.android.com/apk/res/android">
+	android:background="@drawable/bg" xmlns:android="http://schemas.android.com/apk/res/android">
 	<ImageView android:layout_height="wrap_content" android:src="@drawable/imgtitle_renwuguanli3_01"
 		android:layout_width="fill_parent"></ImageView>
 	<ListView android:id="@+id/mListView_processManage"
